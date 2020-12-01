@@ -3,13 +3,15 @@ import React, { Component } from "react";
 export default class Home extends Component {
   render() {
     return (
-      <div className="hero-image" style={{backgroundImage: "url(/images/bg-img.jpg)"}}>
-            <div className="container-fluid">
-              <div className="row">
-                <h1>Stefanie Serpa</h1>
-                <h2>Full-Stack Web Developer</h2> 
-              </div>
+      <div className="jumbotron bg-transparent jumbotron-fluid p-0">
+        <div class="container">
+          <div className="row justify-content-center">
+            <div className="col-md-8 col-xs-12">
+              
             </div>
+          </div>
+        </div>
+
       </div>
     );
   }
