@@ -21,3 +21,11 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+<div id="footer-icons" className="row align-items-end">
+<a className="btn btn-primary" href="https://github.com/smserpa" target="blank">
+<i className="fab fa-github fa-lg white-text mr-md-4" />
+</a><a className="btn btn-primary" href="https://www.linkedin.com/in/stefanie-serpa-57993610b/" target="blank">
+                    <i className="fab fa-linkedin-in" />
+                </a>
+                </div>
