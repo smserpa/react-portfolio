@@ -1,0 +1,33 @@
+#profile-img {
+    max-width:25%;
+    max-height:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap');
+
+h2 {
+    font-family: "Big Shoulders Inline Text", cursive;
+    font-size: 35pt;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+h4 {
+    font-family: "Big Shoulders Inline Text", cursive;
+    font-size: 32pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+}
