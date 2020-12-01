@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "Covid Karaoke",
+        "image": "assets/images/karaoke.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://covidkaraoke.herokuapp.com/",
+        "repo": "https://github.com/vpasamic/covidkaraoke"
+    },
+    {
+        "id": "2",
+        "title": "Express Note Taker",
+        "image": "assets/images/note-taker.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://express-note-taking-app-1.herokuapp.com/",
+        "repo": "https://github.com/smserpa/express_note_taker"
+    },
+    {
+        "id": "3",
+        "title": "Recipe Roulette",
+        "image": "assets/images/recipe.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://babydylan.github.io/recipe-roulette/",
+        "repo": "https://github.com/babydylan/recipe-roulette"
+    },
+    {
+        "id": "4",
+        "title": "Password Generator",
+        "image": "assets/images/password.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://smserpa.github.io/password-generator/",
+        "repo": "https://github.com/smserpa/password-generator"
+    },
+    {
+        "id": "5",
+        "title": "Hedgenight",
+        "image": "assets/images/hedgenight.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://github.com/babydylan/recipe-roulette",
+        "repo": "https://github.com/git99-src/hedgenight"
+    },
+    {
+        "id": "6",
+        "title": "Eat-Da-Burger!",
+        "image": "assets/images/burger.png",
+        "description": "despription",
+        "technology": "tech",
+        "deployed": "https://node-exp-burger-app.herokuapp.com/",
+        "repo": "https://github.com/smserpa/burger"
+    }
+]
