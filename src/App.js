@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe"
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
           <Home />
           <AboutMe />
           <Portfolio />
+          <Footer />
         </div>
     )
   }

@@ -1,16 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
 
-class Footer extends Component {
-    render() {
-        return (
-            <footer className="footer">
-                <div id="copyright" className="row">
-                    <p>&copy; {new Date().getFullYear()} Copyright: Stefanie Serpa</p>
+function Footer() {
+    return (
+        <footer className="footer mt-5">
+            <div className="container">
+                <div id="copyright" className="row justify-content-center p-3">
+                    <div className="col-md-3 col-xs-12 p-0">
+                        <p>&copy; {new Date().getFullYear()} Copyright: Stefanie Serpa</p>
+                    </div>
                 </div>
-            </footer>
-        )
-    }
+            </div>
+        </footer>
+    )
 }
 
 export default Footer;

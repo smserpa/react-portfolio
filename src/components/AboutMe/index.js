@@ -3,7 +3,6 @@ import "./style.css"
 
 function AboutMe() {
     return (
-        <section className="bg-light">
             <div className="container">
                 <h2>About Me</h2>
                 <div className="row">
@@ -19,7 +18,6 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-        </section>
 
     )
 }
