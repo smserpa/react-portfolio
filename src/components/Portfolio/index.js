@@ -3,7 +3,7 @@ import projects from "../../projects.json";
 
 function Portfolio() {
   return (
-    <div id="porfolio-container" className="container">
+    <div id="porfolio" className="container">
       <div className="row p-2">
         {projects.map((project) => {
           return (
