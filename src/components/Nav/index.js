@@ -1,45 +1,31 @@
-import { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import AboutMe from "../AboutMe";
-import HomePage from "../HomePage";
-import Portfolio from "../Portfolio";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "./styles.css";
 
-class Nav extends Component {
+function Nav() {
+  return (
+    <div className="container p-0" fluid={true}>
+      <nav className="navbar navbar-dark border-bottom " expand="lg">
+        <NavLink className="navbar-brand" to="/">
+          {" "}
+          Stefanie Serpa
+        </NavLink>
 
-  
-  render() {
-    return (
-      <Router>
-        <div className="container p-0" fluid={true}>
-          <div className="navbar navbar-dark border-bottom " expand="lg">
-          <div className="navbar-header">
-                <Link className="navbar-brand" to="/">
-                  Stefanie Serpa
-                </Link>
-              </div>
-            <div className="navbar" aria-controls="navbar-toggle" />
-            <div className="navbar navbar-right" id="navbar-toggle">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-                <Link className="nav-link" to="/contact">
-                  Contact
-                </Link>
-                <Link className="nav-link" to="/portfolio">
-                  Portfolio
-                </Link>
-            </div>
-          </div>
-        <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/about" component={AboutMe} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        </Switch>
+        <div className="navbar" aria-controls="navbar-toggle" />
+        <div className="navbar navbar-right" id="navbar-toggle">
+          <NavLink className="nav-link" to="/about">
+            About
+          </NavLink>
+          <NavLink className="nav-link" to="/contact">
+            Contact
+          </NavLink>
+          <NavLink className="nav-link" to="/portfolio">
+            Portfolio
+          </NavLink>
         </div>
-      </Router>
-    );
-  }
+      </nav>
+    </div>
+  );
 }
 
 export default Nav;
