@@ -3,20 +3,23 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import AboutMe from "../AboutMe";
 import HomePage from "../HomePage";
 import Portfolio from "../Portfolio";
+import "./styles.css";
 
 class Nav extends Component {
+
+  
   render() {
     return (
       <Router>
         <div className="container p-0" fluid={true}>
-          <div className="navbar border-bottom" bg="transparent" expand="lg">
+          <div className="navbar navbar-dark border-bottom " expand="lg">
           <div className="navbar-header">
                 <Link className="navbar-brand" to="/">
                   Stefanie Serpa
                 </Link>
               </div>
             <div className="navbar" aria-controls="navbar-toggle" />
-            <div className="navbar" id="navbar-toggle">
+            <div className="navbar navbar-right" id="navbar-toggle">
                 <Link className="nav-link" to="/about">
                   About
                 </Link>
@@ -29,9 +32,9 @@ class Nav extends Component {
             </div>
           </div>
         <Switch>
-        <Route path="/" exact render={() => <HomePage />} />
-        <Route path="/about" exact render={() => <AboutMe />} />
-        <Route path="/portfolio" exact render={() => <Portfolio/>} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={AboutMe} />
+        <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
         </div>
       </Router>
