@@ -11,17 +11,27 @@ function Nav() {
           Stefanie Serpa
         </NavLink>
 
-        <div className="navbar" aria-controls="navbar-toggle" />
-        <div className="navbar navbar-right" id="navbar-toggle">
-          <NavLink className="nav-link" to="/about">
+        <div className="navbar navbar-right" aria-controls="navbar-toggle" id="navbar-toggle">
+          <ul className="navbar nav d-flex">
+            <li className="nav-item active">
+            <NavLink className="nav-link" to="/about">
             About
           </NavLink>
-          <NavLink className="nav-link" to="/contact">
+            </li>
+            <li className="nav-item active">
+            <NavLink className="nav-link" to="/contact">
             Contact
           </NavLink>
-          <NavLink className="nav-link" to="/portfolio">
+            </li>
+            <li className="nav-item active">
+            <NavLink className="nav-link" to="/portfolio">
             Portfolio
           </NavLink>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="assets/images/resume.pdf" target="blank">Resume</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
