@@ -10,7 +10,6 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="container p-0">
         <Nav />
         <Route exact path="/">
           <HomePage />
@@ -24,7 +23,6 @@ function App() {
           <Portfolio />
         </Route>
         <Footer />
-      </div>
     </Router>
   );
 }
