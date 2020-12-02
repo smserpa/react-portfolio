@@ -1,4 +1,42 @@
-.jumbotron {
+.home-page {
+    background-image: url(./hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap');
+
+
+.heading {
+    font-family: "Big Shoulders Inline Text", cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.heading-text {
+    padding-top: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#home-button {
+    width: 220px;
     background-color: thistle;
-    padding-top: 5rem;
+    border-color: thistle;
+    border-radius: 4px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+
+#home-button:hover {
+    background-color: darkgrey;
 }
