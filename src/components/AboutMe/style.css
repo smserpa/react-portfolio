@@ -13,7 +13,7 @@
 #about-header {
     font-family: "Big Shoulders Inline Text", cursive;
     font-size: 50pt;
-    color: black;
+    color:white;
     text-transform: uppercase;
     text-align: center;
     padding-top: 5rem;
@@ -24,7 +24,7 @@
 #about-name {
     font-family: 'Fjalla One', sans-serif;
     font-size: 28pt;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-align: center;
 }
@@ -32,7 +32,7 @@
 #about-title {
     font-family: 'Fjalla One', sans-serif;
     font-size: 18pt;
-    color: black;
+    color:white;
     text-transform: uppercase;
     text-align: center;
 }
