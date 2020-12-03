@@ -4,7 +4,7 @@ import "./styles.css";
 
 function Portfolio() {
   return (
-    <div id="porfolio" className="container">
+    <div id="porfolio" className="container p-5 mt-5">
       <h2 className="portfolio-header">Portfolio</h2>
       <div className="row align-items-center p-4">
         {projects.map((project) => {
