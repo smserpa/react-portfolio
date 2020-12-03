@@ -3,8 +3,8 @@
         "id": "1",
         "title": "Covid Karaoke",
         "image": "assets/images/karaoke.png",
-        "description": "despription",
-        "technology": "tech",
+        "description": "Music app that displays song lyrics alongside the Spotify music player for an at home, interactive karaoke experience",
+        "technology": "Sequelize, Node.js, Express, Express Handlebars, JavaScript, jQuery, Spotify API, Soleno Lyrics API, Bootstrap",
         "deployed": "https://covidkaraoke.herokuapp.com/",
         "repo": "https://github.com/vpasamic/covidkaraoke"
     },

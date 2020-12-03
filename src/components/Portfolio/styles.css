@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.portfolio-header {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.card-header {
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-header .fa {
+    transition: .3 transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+#image-card {
+    width: 18rem;
+    height: 15.5rem;
+    background-size: cover;
+    justify-content: center;
+}
+
+#body-card {
+    width: 18rem;
+    background: linear-gradient(white, cornflowerblue);
+    border: transparent;
+}
+
+.project-name {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-body {
+    color: black;
+}
+
+.pull-right {
+    float: right;
+}
