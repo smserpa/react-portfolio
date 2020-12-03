@@ -5,7 +5,7 @@
     margin-left: 0;
     margin-right: 0;
     padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-bottom: 20rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap');
@@ -13,17 +13,19 @@
 
 .heading {
     font-family: "Big Shoulders Inline Text", cursive;
-    font-size: 60px;
+    font-size: 65px;
     color: white;
+    text-transform: uppercase;
     text-align: center;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 .heading-text {
-    padding-top: 2rem;
     font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
 }
 
 #home-button {
@@ -35,6 +37,7 @@
     font-size: 20px;
     text-transform: uppercase;
     transition-duration: 0.4s;
+    margin-top: 6rem;
 }
 
 #home-button:hover {

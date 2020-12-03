@@ -6,6 +6,11 @@
     text-transform: uppercase;
 }
 
+#card-column {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+
 .card-header {
     justify-content: center;
     font-family: 'Fjalla One', sans-serif;
@@ -24,7 +29,6 @@
     width: 18rem;
     height: 15.5rem;
     background-size: cover;
-    justify-content: center;
 }
 
 #body-card {

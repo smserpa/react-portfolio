@@ -9,7 +9,7 @@ function HomePage() {
       <h2 className="heading">Stefanie Serpa</h2>
       <h5 className="heading-text">Full-Stack Web Developer</h5>
       <div className="btn btn-primary" id="home-button">
-      <a href="portfolio" component={Portfolio} style={{color: "white"}}>Check Out My Work</a>
+      <a href="portfolio" component={Portfolio} style={{color: "black"}}>Check Out My Work</a>
         </div> 
     </div>
     </header>

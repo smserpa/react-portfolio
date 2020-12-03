@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div id="porfolio" className="container p-5 mt-5">
       <h2 className="portfolio-header">Portfolio</h2>
-      <div className="row align-items-center p-4">
+      <div className="row p-4">
         {projects.map((project) => {
           
           let collapseId = `#collapse${project.id}-collapsed`;
@@ -14,7 +14,7 @@ function Portfolio() {
           let headingId = `heading${project.id}-collapsed`;
 
           return (
-            <div className="col-md-4 col-xs-12">
+            <div id="card-column" className="col-md-3 col-sm-6 col-xs-12">
               <div
                 className="card mt-3"
                 id="image-card"
