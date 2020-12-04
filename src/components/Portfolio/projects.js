@@ -1,8 +1,15 @@
+import karaoke from "./assets/karaoke.png";
+import notetaker from "./assets/note-taker.png";
+import recipe from "./assets/recipe.png";
+import password from "./assets/password.png";
+import hedgenight from "./assets/hedgenight.png";
+import burger from "./assets/burger.png";
+
 export const projects = [
     {
         "id": "1",
         "title": "Covid Karaoke",
-        "image": require("./assets/karaoke.png"),
+        "image": karaoke,
         "description": "Music app that displays song lyrics alongside the Spotify music player for an at home, interactive karaoke experience",
         "technology": "Sequelize, Node.js, Express, Express Handlebars, JavaScript, jQuery, Spotify API, Soleno Lyrics API, Bootstrap",
         "deployed": "https://covidkaraoke.herokuapp.com/",
@@ -11,7 +18,7 @@ export const projects = [
     {
         "id": "2",
         "title": "Express Note Taker",
-        "image": require("./assets/note-taker.png"),
+        "image": notetaker,
         "description": "An organizational tool that allows users to draft, save, and delete notes in order to manage tasks and other concerns. This application runs with an express backend that saves and retieves data via JSON file.",
         "technology": "HTML, CSS, Express, Javascript, jQuery, Bootstrap",
         "deployed": "https://express-note-taking-app-1.herokuapp.com/",
@@ -20,7 +27,7 @@ export const projects = [
     {
         "id": "3",
         "title": "Recipe Roulette",
-        "image": "",
+        "image": recipe,
         "description": "Culinary app that produces an assortment of recipes by user input of cuisine type and/or desired ingredient",
         "technology": "HTML, CSS, JavaScript, jQuery, Spoonacular API, Edamam API, Materialize, GoogleFonts",
         "deployed": "https://babydylan.github.io/recipe-roulette/",
@@ -29,7 +36,7 @@ export const projects = [
     {
         "id": "4",
         "title": "Password Generator",
-        "image": "",
+        "image": password,
         "description": "Web app designed to generate a random password based on user input",
         "technology": "HTML, CSS, JavaScript",
         "deployed": "https://smserpa.github.io/password-generator/",
@@ -38,7 +45,7 @@ export const projects = [
     {
         "id": "5",
         "title": "Hedgenight",
-        "image": "",
+        "image": hedgenight,
         "description": "HedgeNight is an application designed to track timed tasks effectively with associated project notes.",
         "technology": "HTML, CSS, Javascript, Bootstrap, React, MongoDB, Mongoose, Express, Game of Thrones API",
         "deployed": "https://github.com/babydylan/recipe-roulette",
@@ -47,7 +54,7 @@ export const projects = [
     {
         "id": "6",
         "title": "Eat-Da-Burger!",
-        "image": "",
+        "image": burger,
         "description": "Logging application created to gain experience creating a custom ORM. Application follows proper MVC structuring.",
         "technology": "MySQL, Node.js, Express, and Handlebars",
         "deployed": "https://node-exp-burger-app.herokuapp.com/",
