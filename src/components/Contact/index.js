@@ -3,10 +3,10 @@ import "./styles.css";
 
 function Contact() {
   return (
-    <div className="container p-5 mt-5">
+    <div className="container pt-5 pb-5 mt-5">
       <h2 id="contact-header">Contact</h2>
-      <div id="contact-body" className="row justify-content-center p-5 mt-5 mb-5">
-      <div className="col-md-2">
+      <div id="contact-body" className="row justify-content-center pt-5 pb-5 mt-5 mb-5">
+      <div className="col-md-2 col-sm-1">
       <p>Name:</p>
       <p>Location:</p>
       <p>Education:</p>
@@ -14,7 +14,7 @@ function Contact() {
       <p>GitHub:</p>
       <p>LinkedIn:</p>
       </div>
-      <div className="col-md-6 text-left">
+      <div className="col-md-8 col-sm-9 text-left">
         <p>Stefanie Serpa</p>
         <p>San Diego, CA</p>
         <p>Full Stack Web Development Bootcamp, UCSD Extension</p>
