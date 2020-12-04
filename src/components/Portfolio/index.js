@@ -1,8 +1,9 @@
 import React from "react";
-import projects from "../../projects.json";
+import { projects } from "./projects";
 import "./styles.css";
 
 function Portfolio() {
+
   return (
     <div id="porfolio" className="container p-5 mt-5">
       <h2 className="portfolio-header">Portfolio</h2>
