@@ -29,7 +29,7 @@ function Nav() {
           </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="assets/images/resume.pdf" target="blank" style={{color: "white"}}>Resume</a>
+              <a className="nav-link" to="/resume.pdf" href={process.env.PUBLIC_URL + "/resume.pdf"} target="blank" style={{color: "white"}} rel="noreferrer">Resume</a>
             </li>
           </ul>
         </div>

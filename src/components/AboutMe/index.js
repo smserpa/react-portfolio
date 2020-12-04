@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import profile from "./profile.jpeg";
 
 function AboutMe() {
     return (
@@ -7,7 +8,7 @@ function AboutMe() {
                 <h2 id="about-header" >About Me</h2>
                 <div className="row">
                     <div className="col">
-                        <img id="profile-img" className="img-thumbnail" src="assets/images/profile-img.jpeg" alt="Profile" />
+                        <img id="profile-img" className="img-thumbnail" src={profile} alt="Profile" />
                         <h4 id="about-name" >Stefanie Serpa</h4> <br />
                         <h5 id="about-title" >Full-Stack Web Developer</h5> <br />
                         <div className="col-md-8 mx-auto text-center">
