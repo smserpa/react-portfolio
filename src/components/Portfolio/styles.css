@@ -4,11 +4,12 @@
     font-family: 'Fjalla One', sans-serif;
     font-size: 45px;
     text-transform: uppercase;
+    text-shadow: 1px 1px black;
 }
 
 #card-column {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
 }
 
 .card-header {
